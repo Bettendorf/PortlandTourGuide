@@ -9,10 +9,10 @@ import android.view.ViewGroup;
 /**
  * Fragment that displays "Tuesday".
  */
-public class TuesdayFragment extends Fragment {
+public class MuseumsFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_tuesday, container, false);
+        return inflater.inflate(R.layout.fragment_museums, container, false);
     }
 }

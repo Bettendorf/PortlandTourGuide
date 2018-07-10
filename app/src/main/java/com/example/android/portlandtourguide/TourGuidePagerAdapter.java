@@ -9,12 +9,12 @@ import android.support.v4.app.FragmentPagerAdapter;
 /**
  * Provides the appropriate {@link Fragment} for a view pager.
  */
-public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
+public class TourGuidePagerAdapter extends FragmentPagerAdapter {
 
     /** Context of the app */
     private Context mContext;
 
-    public SimpleFragmentPagerAdapter(Context context, FragmentManager fm) {
+    public TourGuidePagerAdapter(Context context, FragmentManager fm) {
         super(fm);
         mContext = context;
     }
@@ -22,13 +22,13 @@ public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
     @Override
     public Fragment getItem(int position) {
         if (position == 0) {
-            return new MondayFragment();
+            return new RestaurantsFragment();
         } else if (position == 1){
-            return new TuesdayFragment();
+            return new MuseumsFragment();
         } else if (position == 2){
-            return new WednesdayFragment();
+            return new SportsVenuesFragment();
         } else {
-            return new ThursdayFragment();
+            return new FamousLocationsFragment();
         }
     }
 
