@@ -7,7 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 /**
- * Fragment that displays "Wednesday".
+ * Fragment that displays "Sports Venues".
  */
 public class SportsVenuesFragment extends Fragment {
 

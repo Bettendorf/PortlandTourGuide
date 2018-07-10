@@ -7,7 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 /**
- * Fragment that displays "Thursday".
+ * Fragment that displays "Famous Locations".
  */
 public class FamousLocationsFragment extends Fragment {
 

@@ -44,13 +44,13 @@ public class TourGuidePagerAdapter extends FragmentPagerAdapter {
     @Override
     public CharSequence getPageTitle(int position) {
         if (position == 0) {
-            return mContext.getString(R.string.category_one);
+            return mContext.getString(R.string.category_restaurants);
         } else if (position == 1) {
-            return mContext.getString(R.string.category_two);
+            return mContext.getString(R.string.category_museums);
         } else if (position == 2) {
-            return mContext.getString(R.string.category_three);
+            return mContext.getString(R.string.category_sports_venues);
         } else {
-            return mContext.getString(R.string.category_four);
+            return mContext.getString(R.string.category_famous_locations);
         }
     }
 }
