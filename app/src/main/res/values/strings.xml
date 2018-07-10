@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Portland Tour Guide</string>
+
+    <!-- Category name for category one -->
+    <string name="category_one">One</string>
+
+    <!-- Category name for category two -->
+    <string name="category_two">Two</string>
+
+    <!-- Category name for category three -->
+    <string name="category_three">Three</string>
+
+    <!-- Category name for category four -->
+    <string name="category_four">Four</string>
 </resources>
