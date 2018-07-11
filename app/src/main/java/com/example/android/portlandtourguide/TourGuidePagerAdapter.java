@@ -11,12 +11,10 @@ import android.support.v4.app.FragmentPagerAdapter;
  */
 public class TourGuidePagerAdapter extends FragmentPagerAdapter {
 
-    /** Context of the app */
-    private Context mContext;
+    private String[] TabNames = new String[] {"Restaurants", "Museums", "Sports Venues", "Famous Locations"};
 
-    public TourGuidePagerAdapter(Context context, FragmentManager fm) {
+    public TourGuidePagerAdapter(FragmentManager fm) {
         super(fm);
-        mContext = context;
     }
 
     @Override
@@ -43,14 +41,6 @@ public class TourGuidePagerAdapter extends FragmentPagerAdapter {
     @Nullable
     @Override
     public CharSequence getPageTitle(int position) {
-        if (position == 0) {
-            return mContext.getString(R.string.category_restaurants);
-        } else if (position == 1) {
-            return mContext.getString(R.string.category_museums);
-        } else if (position == 2) {
-            return mContext.getString(R.string.category_sports_venues);
-        } else {
-            return mContext.getString(R.string.category_famous_locations);
-        }
+        return TabNames[position];
     }
 }

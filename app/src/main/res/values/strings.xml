@@ -1,15 +1,3 @@
 <resources>
     <string name="app_name">Portland Tour Guide</string>
-
-    <!-- Category name for category one -->
-    <string name="category_restaurants">Restaurants</string>
-
-    <!-- Category name for category two -->
-    <string name="category_museums">Museums</string>
-
-    <!-- Category name for category three -->
-    <string name="category_sports_venues">Sports Venues</string>
-
-    <!-- Category name for category four -->
-    <string name="category_famous_locations">Famous Locations</string>
 </resources>
