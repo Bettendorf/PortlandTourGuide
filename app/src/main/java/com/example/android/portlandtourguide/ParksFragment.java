@@ -10,7 +10,7 @@ import android.widget.ListView;
 import java.util.ArrayList;
 
 /**
- * Fragment that displays "Famous Locations".
+ * Fragment that displays "Parks".
  */
 public class ParksFragment extends Fragment {
 

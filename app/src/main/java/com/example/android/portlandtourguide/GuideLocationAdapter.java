@@ -13,7 +13,7 @@ import java.util.ArrayList;
 
 public class GuideLocationAdapter extends ArrayAdapter<GuideLocation> {
 
-    private ArrayList<GuideLocation> mGuideLocationsList;
+    public ArrayList<GuideLocation> mGuideLocationsList;
 
     public GuideLocationAdapter(Context context, ArrayList<GuideLocation> locations) {
         super(context, 0, locations);
@@ -29,6 +29,7 @@ public class GuideLocationAdapter extends ArrayAdapter<GuideLocation> {
             listItemView = LayoutInflater.from(getContext()).inflate(R.layout.list_item, parent, false);
         }
 
+        //Get the location to display
         GuideLocation guideLocation = getItem(position);
 
         TextView locationName = listItemView.findViewById(R.id.location_name);

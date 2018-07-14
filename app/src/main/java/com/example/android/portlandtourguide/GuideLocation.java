@@ -1,5 +1,6 @@
 package com.example.android.portlandtourguide;
 
+//Custom Class to hold information about the locations
 public class GuideLocation {
     private String mName;
     private String mAddress;
@@ -7,6 +8,7 @@ public class GuideLocation {
     private int mImageResourceId;
     private final int NO_IMAGE_ID = -1;
 
+    //The constructor
     public GuideLocation(String name, String address, String description, int imageResourceId) {
         mName = name;
         mAddress = address;
@@ -14,6 +16,7 @@ public class GuideLocation {
         mImageResourceId = imageResourceId;
     }
 
+    //Getter methods
     public String getName() {
         return mName;
     }
