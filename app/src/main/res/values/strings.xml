@@ -1,5 +1,7 @@
 <resources>
+
     <!--App Name-->
+
     <string name="app_name">Portland Tour Guide</string>
 
     <!--FamousLocationsFragment info-->
@@ -41,6 +43,5 @@
     <string name="sports_venue_2_name">Moda Center</string>
     <string name="sports_venue_2_address">1 N Center Ct St</string>
     <string name="sports_venue_2_description">Entertainment complex housing the Portland Trail Blazers basketball and Winterhawks hockey teams.</string>
-
 
 </resources>
