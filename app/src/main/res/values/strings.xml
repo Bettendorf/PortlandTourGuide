@@ -5,41 +5,41 @@
     <!--FamousLocationsFragment info-->
 
     <string name="famous_location_1_name">Powell\'s Books</string>
-    <string name="famous_location_1_address">1005 W Burnside St, Portland, OR 97209</string>
+    <string name="famous_location_1_address">1005 W Burnside St</string>
     <string name="famous_location_1_description">This landmark, multi-level source for new and used books also houses a cafe and selection of gifts.</string>
 
     <string name="famous_location_2_name">Pittock Mansion</string>
-    <string name="famous_location_2_address">3229 NW Pittock Dr, Portland, OR 97210</string>
+    <string name="famous_location_2_address">3229 NW Pittock Dr</string>
     <string name="famous_location_2_description">Museum shop at the historic home sells gifts with a local vibe like crafts and history-inspired items.</string>
 
     <!--MuseumsFragment info-->
 
     <string name="museum_1_name">OMSI</string>
-    <string name="museum_1_address">1945 SE Water Ave, Portland, OR 97214</string>
+    <string name="museum_1_address">1945 SE Water Ave</string>
     <string name="museum_1_description">Rotating shows, science labs, submarine tours and planetarium at a museum with monthly 21+ events.</string>
 
     <string name="museum_2_name">Portland Art Museum</string>
-    <string name="museum_2_address">1219 SW Park Ave, Portland, OR 97205</string>
+    <string name="museum_2_address">1219 SW Park Ave</string>
     <string name="museum_2_description">Variety of collections include Asian, American and Native American art, plus touring shows and theater.</string>
 
     <!--RestaurantsFragment info-->
 
     <string name="restaurant_1_name">Brix</string>
-    <string name="restaurant_1_address">2708, 1338 NW Hoyt St, Portland, OR 97209</string>
+    <string name="restaurant_1_address">1338 NW Hoyt St</string>
     <string name="restaurant_1_description">American comfort food in renovated warehouse with early/late happy hour, pool and TVs showing sports.</string>
 
     <string name="restaurant_2_name">Portland City Grill</string>
-    <string name="restaurant_2_address">111 SW 5th Ave, Portland, OR 97204</string>
+    <string name="restaurant_2_address">111 SW 5th Ave</string>
     <string name="restaurant_2_description">New American dishes with an Asian touch, plus a happy hour, served with a 30th-floor skyline view.</string>
 
     <!--SportsVenuesFragment info-->
 
     <string name="sports_venue_1_name">Providence Park</string>
-    <string name="sports_venue_1_address">1844 SW Morrison St, Portland, OR 97205</string>
+    <string name="sports_venue_1_address">1844 SW Morrison St</string>
     <string name="sports_venue_1_description">Sports and events venue with stadium and field hosting Major League Soccer, college football and more.</string>
 
     <string name="sports_venue_2_name">Moda Center</string>
-    <string name="sports_venue_2_address">1 N Center Ct St, Portland, OR 97227</string>
+    <string name="sports_venue_2_address">1 N Center Ct St</string>
     <string name="sports_venue_2_description">Entertainment complex housing the Portland Trail Blazers basketball and Winterhawks hockey teams.</string>
 
 

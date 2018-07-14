@@ -19,8 +19,8 @@ public class MuseumsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.locations_list, container, false);
 
         ArrayList<GuideLocation> guideLocationsList = new ArrayList<>();
-        guideLocationsList.add(new GuideLocation(getString(R.string.museum_1_name), getString(R.string.museum_1_address), getString(R.string.museum_1_description)));
-        guideLocationsList.add(new GuideLocation(getString(R.string.museum_2_name), getString(R.string.museum_2_address), getString(R.string.museum_2_description)));
+        guideLocationsList.add(new GuideLocation(getString(R.string.museum_1_name), getString(R.string.museum_1_address), getString(R.string.museum_1_description), R.drawable.omsi));
+        guideLocationsList.add(new GuideLocation(getString(R.string.museum_2_name), getString(R.string.museum_2_address), getString(R.string.museum_2_description),R.drawable.portland_art_museum));
 
         GuideLocationAdapter itemsAdapter = new GuideLocationAdapter(getContext(), guideLocationsList);
 

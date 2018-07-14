@@ -19,8 +19,8 @@ public class RestaurantsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.locations_list, container, false);
 
         ArrayList<GuideLocation> guideLocationsList = new ArrayList<>();
-        guideLocationsList.add(new GuideLocation(getString(R.string.restaurant_1_name), getString(R.string.restaurant_1_address), getString(R.string.restaurant_1_description)));
-        guideLocationsList.add(new GuideLocation(getString(R.string.restaurant_2_name), getString(R.string.restaurant_2_address), getString(R.string.restaurant_2_description)));
+        guideLocationsList.add(new GuideLocation(getString(R.string.restaurant_1_name), getString(R.string.restaurant_1_address), getString(R.string.restaurant_1_description), R.drawable.brix));
+        guideLocationsList.add(new GuideLocation(getString(R.string.restaurant_2_name), getString(R.string.restaurant_2_address), getString(R.string.restaurant_2_description), R.drawable.portland_art_museum));
 
         GuideLocationAdapter itemsAdapter = new GuideLocationAdapter(getContext(), guideLocationsList);
 

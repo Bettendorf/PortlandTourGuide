@@ -19,8 +19,8 @@ public class SportsVenuesFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.locations_list, container, false);
 
         ArrayList<GuideLocation> guideLocationsList = new ArrayList<>();
-        guideLocationsList.add(new GuideLocation(getString(R.string.sports_venue_1_name), getString(R.string.sports_venue_1_address), getString(R.string.sports_venue_1_description)));
-        guideLocationsList.add(new GuideLocation(getString(R.string.sports_venue_2_name), getString(R.string.sports_venue_2_address), getString(R.string.sports_venue_2_description)));
+        guideLocationsList.add(new GuideLocation(getString(R.string.sports_venue_1_name), getString(R.string.sports_venue_1_address), getString(R.string.sports_venue_1_description), R.drawable.providence_park));
+        guideLocationsList.add(new GuideLocation(getString(R.string.sports_venue_2_name), getString(R.string.sports_venue_2_address), getString(R.string.sports_venue_2_description), R.drawable.moda_center));
 
         GuideLocationAdapter itemsAdapter = new GuideLocationAdapter(getContext(), guideLocationsList);
 
