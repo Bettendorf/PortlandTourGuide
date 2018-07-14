@@ -10,7 +10,7 @@ import android.support.v4.app.FragmentPagerAdapter;
  */
 public class TourGuidePagerAdapter extends FragmentPagerAdapter {
 
-    private String[] TabNames = new String[] {"Restaurants", "Museums", "Sports Venues", "Famous Locations"};
+    private String[] TabNames = new String[] {"Restaurants", "Museums", "Parks", "Sports Venues", "Famous Locations"};
 
     public TourGuidePagerAdapter(FragmentManager fm) {
         super(fm);
@@ -20,9 +20,11 @@ public class TourGuidePagerAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         if (position == 0) {
             return new RestaurantsFragment();
-        } else if (position == 1){
+        } else if (position == 1) {
             return new MuseumsFragment();
-        } else if (position == 2){
+        } else if (position == 2) {
+              return new ParksFragment();
+        } else if (position == 3) {
             return new SportsVenuesFragment();
         } else {
             return new FamousLocationsFragment();
@@ -34,7 +36,7 @@ public class TourGuidePagerAdapter extends FragmentPagerAdapter {
      */
     @Override
     public int getCount() {
-        return 4;
+        return 5;
     }
 
     @Nullable

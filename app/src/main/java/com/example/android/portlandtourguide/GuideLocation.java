@@ -1,20 +1,11 @@
 package com.example.android.portlandtourguide;
 
 public class GuideLocation {
-    private final String mCity = "Portland";
-    private final String mState = "Oregon";
     private String mName;
     private String mAddress;
     private String mDescription;
     private int mImageResourceId;
     private final int NO_IMAGE_ID = -1;
-
-    public GuideLocation(String name, String address, String description) {
-        mName = name;
-        mAddress = address;
-        mDescription = description;
-        mImageResourceId = NO_IMAGE_ID;
-    }
 
     public GuideLocation(String name, String address, String description, int imageResourceId) {
         mName = name;
@@ -23,16 +14,12 @@ public class GuideLocation {
         mImageResourceId = imageResourceId;
     }
 
-    public void setName(String name) {
-        mName = name;
-    }
-
     public String getName() {
         return mName;
     }
 
     public String getAddress() {
-        return mAddress + ", " + mCity + ", " + mState;
+        return mAddress;
     }
 
     public String getDescription() {
