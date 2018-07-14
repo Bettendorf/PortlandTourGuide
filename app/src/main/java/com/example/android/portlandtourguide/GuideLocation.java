@@ -5,18 +5,21 @@ public class GuideLocation {
     private final String mState = "Oregon";
     private String mName;
     private String mAddress;
+    private String mDescription;
     private int mImageResourceId;
     private final int NO_IMAGE_ID = -1;
 
-    public GuideLocation(String name, String address) {
+    public GuideLocation(String name, String address, String description) {
         mName = name;
         mAddress = address;
+        mDescription = description;
         mImageResourceId = NO_IMAGE_ID;
     }
 
-    public GuideLocation(String name, String address, int imageResourceId) {
+    public GuideLocation(String name, String address, String description, int imageResourceId) {
         mName = name;
         mAddress = address;
+        mDescription = description;
         mImageResourceId = imageResourceId;
     }
 
@@ -30,6 +33,10 @@ public class GuideLocation {
 
     public String getAddress() {
         return mAddress + ", " + mCity + ", " + mState;
+    }
+
+    public String getDescription() {
+        return mDescription;
     }
 
     public int getImageResourceId() {

@@ -37,6 +37,9 @@ public class GuideLocationAdapter extends ArrayAdapter<GuideLocation> {
         TextView locationAddress = listItemView.findViewById(R.id.location_address);
         locationAddress.setText(guideLocation.getAddress());
 
+        TextView locationDescription = listItemView.findViewById(R.id.location_description);
+        locationDescription.setText(guideLocation.getDescription());
+
         LinearLayout imageContainer = listItemView.findViewById(R.id.image_container);
         if (guideLocation.hasImage()) {
             ImageView locationImage = listItemView.findViewById(R.id.image);

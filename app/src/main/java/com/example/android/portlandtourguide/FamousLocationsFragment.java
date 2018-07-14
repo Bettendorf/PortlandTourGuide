@@ -19,8 +19,8 @@ public class FamousLocationsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.locations_list, container, false);
 
         ArrayList<GuideLocation> guideLocationsList = new ArrayList<>();
-        guideLocationsList.add(new GuideLocation(getString(R.string.famous_location_1_name), getString(R.string.famous_location_1_address)));
-        guideLocationsList.add(new GuideLocation(getString(R.string.famous_location_2_name), getString(R.string.famous_location_2_address)));
+        guideLocationsList.add(new GuideLocation(getString(R.string.famous_location_1_name), getString(R.string.famous_location_1_address), getString(R.string.famous_location_1_description)));
+        guideLocationsList.add(new GuideLocation(getString(R.string.famous_location_2_name), getString(R.string.famous_location_2_address), getString(R.string.famous_location_2_description)));
 
         GuideLocationAdapter itemsAdapter = new GuideLocationAdapter(getContext(), guideLocationsList);
 
